@@ -31,5 +31,6 @@ int main(void)
   }
 
   printf("Answer: %lu\n", answer);
+  return 0;
 }
 
