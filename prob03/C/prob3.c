@@ -6,7 +6,7 @@ int is_prime(num)
 {
   int output = 1;
   unsigned long factor;
-  for(factor = 2; factor*factor < num; factor++)
+  for(factor = 2; factor*factor <= num; factor++)
   {
     if(num % factor == 0)
       output = 0;
